@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hridoy Mrhn">
+    <title>Active Box - PSD to HTML</title>
+    <!-- Bootatrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Main Css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg bg-white mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <img src="images/logo.png" alt="logo" class="img-fluid logo">
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-6">
+                    <form action="#" method="POST" class="mt-3 form-">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control form-bg" placeholder="Search your products here e.g. AC, Mobile...">
+                            <button type="submit" class="input-group-text" id="basic-addon1">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="user-menu pt-4">
+                        <a href="#" class="user-item">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge bg-danger cart-number text-center cart-height rounded-pill">3</span>
+                            <span class="ps-2 text-capitalize">cart</span>
+                        </a>
+                        <a href="#" class="user-item">
+                            <i class="far fa-user"></i>
+                            <span>Login / Sign up</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Banner Section Start -->
+    <section id="banner-section">
+        <div class="container">
+            <div class="row">
+                <!-- Feature Categories -->
+                <div class="col-lg-3">
+                    <div class="feature-categories">
+                        <div class="card">
+                            <div class="card-header text-uppercase fc-header">feature categories</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item px-5 px-5">
+                                    <a href="#">
+                                        <img src="images/FirstraysExpress.png" alt="">
+                                        <span class="ps-2">Firstrays Express</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5">
+                                    <a href="#">
+                                        <img src="images/ComputerElectronics.png" alt="">
+                                        <span class="ps-2">Computer & Electronics</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/MobileAccessories.png" alt="">
+                                        <span class="ps-2">Mobile & Accessoriess</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/HomeAppliances.png" alt="">
+                                        <span class="ps-2">Home Appliances</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/HomeAppliances.png" alt="">
+                                        <span class="ps-2">Home & Living</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/FashionAccessories.png" alt="">
+                                        <span class="ps-2">Fashion & Accessoriess</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/BikesBicyclesCars.png" alt="">
+                                        <span class="ps-2">Bike, Bicyle & Cars</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/Books-Stationery.png" alt="">
+                                        <span class="ps-2">Book & Stationery</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-0">
+                                    <a href="#">
+                                        <img src="images/KidsZone.png" alt="">
+                                        <span class="ps-2">Kids Zone</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item px-5 border-top">
+                                    <a href="#">
+                                        <img src="images/more.png" alt="">
+                                        <span class="ps-2">More Categories</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banner Part  -->
+                <div class="col-lg-6">
+                    <div class="banner">
+                        <img src="images/banner.png" alt="Banner">
+                    </div>
+                    <div class="banner-text bg-white mt-3 rounded-2">
+                        <h2>Ending Soon + Last Visited Products</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 bg-white rounded-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Menu Section Start -->
+    <Section id="menu-section">
+        <div class="container">
+            <div class="row my-5">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="flex-column">
+                        <div class="menu-item d-flex">
+                            <i class="fas fa-circle hot-deals flex-column"></i>
+                            <span class="fs-5 flex-column mt-1 ms-2">Hot Deals</span>
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <div class="menu-item d-flex">
+                            <i class="fas fa-circle popular flex-column"></i>
+                            <span class="fs-5 flex-column mt-1 ms-2">Popular</span>
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <div class="menu-item d-flex">
+                            <i class="fas fa-circle offers flex-column"></i>
+                            <span class="fs-5 flex-column mt-1 ms-2">Offers</span>
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <div class="menu-item d-flex">
+                            <i class="fas fa-circle campaigns flex-column"></i>
+                            <span class="fs-5 flex-column mt-1 ms-2">Campaigns</span>
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <div class="menu-item d-flex">
+                            <i class="fas fa-circle e-sheba flex-column"></i>
+                            <span class="fs-5 flex-column mt-1 ms-2">E-Sheba</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- Menu Section End -->
+
+    <!-- Service Section Start -->
+    <section id="service-setion">
+        <div class="container">
+            <div class="row my-5">
+                <div class="d-flex">
+                     <div class="flex-column bg-white p-4 m-1">
+                         <div class="service-item text-center">
+                             <img src="images/value.png" alt="" class="img-fluid w-50">
+                             <h3>Best Value</h3>
+                             <p>We offer competitive prices on our 100 million plus product range.</p>
+                         </div>
+                     </div>
+                     <div class="flex-column bg-white p-4 m-1">
+                         <div class="service-item text-center">
+                             <img src="images/packing.png" alt="">
+                             <h3>Authentic Product</h3>
+                             <p>Officially Sourced Products from verified vendors & Brands</p>
+                         </div>
+                     </div>
+                     <div class="flex-column bg-white p-4 m-1">
+                         <div class="service-item text-center">
+                             <img src="images/credit-card.png" alt="">
+                             <h3>Safe Payment</h3>
+                             <p>Pay with the most popular and secure payment methods.</p>
+                         </div>
+                     </div>
+                     <div class="flex-column bg-white p-4 m-1">
+                         <div class="service-item text-center">
+                             <img src="images/shipped.png" alt="">
+                             <h3>Fast Delivery</h3>
+                             <p>Get Delivery of your ordered Products within guarranteed Timeline</p>
+                         </div>
+                     </div>
+                     <div class="flex-column bg-white p-4 m-1">
+                         <div class="service-item text-center">
+                             <img src="images/customer-service.png" alt="">
+                             <h3>Customer Support</h3>
+                             <p>Dadicated Customer support to ensure best experience</p>
+                         </div>
+                     </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!-- Service Section End  -->
+
+    <!-- Flash Sale Start -->
+    <section id="flash-sale">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 falsh-sale-bg my-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/bg-phone.png" alt="" class="img-fluid phone-img">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="pt-3 text-center">Flash Sale!</h2>
+                        </div>
+                        <div class="col-3">
+                            <div class="our-btn mt-3">
+                                <a href="#" class="btn btn-light">VIEW ALL</a>
+                            </div>
+                        </div>
+                     </div>                   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Flash Sale End -->
+
+    <!-- Lifestyle Section Start -->
+    <section id="lifestyle-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 lifestyle-bg my-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/watch.png" alt="" class="img-fluid lifestyle-img">
+                        </div>
+                        <div class="col-6">
+                            <h2 class="pt-3 text-center">LIFE STYLE</h2>
+                        </div>
+                        <div class="col-3">
+                            <div class="our-btn mt-3">
+                                <a href="#" class="btn btn-light">VIEW ALL</a>
+                            </div>
+                        </div>
+                     </div>                   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lifestyle Section End -->
+
+    <!-- Appliance Section Start -->
+    <section id="appliance-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 appliance-bg my-5">
+                    <div class="row">
+                        <div class="col-3 col-md-4">
+                            <img src="images/appliances.png" alt="" class="img-fluid appliance-img">
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <h2 class="pt-3 text-center text-uppercase">appliance</h2>
+                        </div>
+                        <div class="col-3 col-md-4 text-center">
+                            <div class="our-btn mt-3">
+                                <a href="#" class="btn btn-light">VIEW ALL</a>
+                            </div>
+                        </div>
+                     </div>                   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Appliance Section End -->
+
+    <!-- Accesorries Section Start -->
+    <section id="accesorries-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 accesorries-bg my-5">
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <h2 class="pt-3 text-center text-uppercase">accesorries</h2>
+                        </div>
+                        <div class="col-3">
+                            <div class="our-btn mt-3">
+                                <a href="#" class="btn btn-light">VIEW ALL</a>
+                            </div>
+                        </div>
+                     </div>                   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 p-1">
+                    <div class="card p-2">
+                        <img src="images/HeadPhone.png" class="img-thumbnail border-0 product-img" alt="product">
+                        <div class="card-body p-1 product-item">
+                            <p class="my-3 product-title">Remax Gaming Headphone Bluetooth Connectivity V0.5</p>
+                            <p>
+                                <span class="text-decoration-line-through m-1">$3200</span> 
+                                <span class="badge bg-primary text-wrap">-33%</span>
+                            </p>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h5 class="font-weight-bold product-price pt-2">৳ 2000</h5>
+                                <a href="#" class="btn btn-danger">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accesorries Section End -->
+
+
+    <!-- =============== All JS ================== -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>

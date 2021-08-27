@@ -1,0 +1,84 @@
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .logo{
+        max-width: 100%;
+    }
+    .banner{
+        margin-top: 1.5rem !important;
+    }
+    .user-menu .user-item i{
+        font-size: 18px; 
+    }
+    .user-menu .user-item span{
+        font-size: 15px;  
+    }
+    .falsh-sale-bg h2, .lifestyle-bg h2, .appliance-bg h2, .accesorries-bg h2{
+        font-size: 45px;
+        padding-top: 30px !important;
+    }
+    .our-btn a{
+        font-size: 18px
+    }
+    .appliance-img{
+        height: 100%;
+        top: -40px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .logo{
+        width: 250px;
+    }
+    .banner{
+        margin-top: 1.5rem !important;
+    }
+    .user-menu .user-item i{
+        font-size: 18px; 
+    }
+    .user-menu .user-item span{
+        font-size: 15px;  
+    }
+    .falsh-sale-bg h2, .lifestyle-bg h2, .appliance-bg .appliance-img, .accesorries-bg h2{
+        font-size: 35px;
+        padding-top: 45px !important;
+    }
+    .our-btn a{
+        font-size: 16px
+    }
+    .appliance-img{
+        height: 85%;
+        top: -40px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+    .logo{
+        width: 250px;
+    }
+    .banner{
+        margin-top: 1.5rem !important;
+    }
+    .user-menu .user-item i{
+        font-size: 18px; 
+    }
+    .user-menu .user-item span{
+        font-size: 15px;  
+    }
+    .falsh-sale-bg h2, .lifestyle-bg h2, .appliance-bg h2, .accesorries-bg h2{
+        font-size: 25px;
+        padding-top: 45px !important;
+    }
+    .falsh-sale-bg .phone-img, .lifestyle-bg .lifestyle-img, .appliance-bg .appliance-img, .accesorries-bg{
+        height: 75%;
+        top: -20px;
+    }
+    .our-btn{
+        padding: 0;
+    }
+    .our-btn a{
+        font-size: 14px
+    }
+    .appliance-img{
+        height: 35%;
+        top: -20px;
+    }
+}
